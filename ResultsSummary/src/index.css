@@ -1,0 +1,166 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.list-container {
+  color:#242424;
+  height: 80%;
+  font-size: 18px;
+}
+
+svg {
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.of100 {
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.7)
+}
+
+.circle {
+  background-color:hsl(234, 85%, 80%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  color:white;
+  font-weight: bold;
+}
+
+h1,h2 {
+  color:#242424;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color:#242424;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top:-20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60%;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+
+.reaction-list {
+  background-color: hsl(0, 100%, 90%);
+  width: 85%;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.memory-list {
+  background-color: hsl(39, 100%, 90%);
+  width: 85%;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contain {
+  display: flex;
+  flex-direction: row;
+  justify-content:right;
+  align-items: center;
+}
+
+.iconplus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  float:right;
+}
+
+.right {
+  margin-right: 10px;
+}
+
+.verbal-list {
+  background-color: hsl(166, 100%, 90%);
+  width: 85%;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.visual-list {
+  background-color: hsl(234, 85%, 90%);
+  width: 85%;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  color:rgb(215, 238, 238);
+  background-color:#20b7d5;
+  width: 70%;
+  height: 10%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: nowrap;
+  width: 60%;
+  height: 100vh;
+}
+
+.box-component {
+  width: 50%;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  border: 1px solid black;
+}
